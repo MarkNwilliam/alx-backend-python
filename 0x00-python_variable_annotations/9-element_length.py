@@ -5,6 +5,7 @@ Module for task 9 - Let's duck type an iterable object
 
 from typing import Iterable, Sequence, List, Tuple
 
+
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     Takes an iterable object and returns a list of tuples where each tuple contains
