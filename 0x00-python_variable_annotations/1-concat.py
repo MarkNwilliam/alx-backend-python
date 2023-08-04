@@ -4,9 +4,9 @@
 Module for task 1 - Basic annotations - concat
 """
 
+
 def concat(str1: str, str2: str) -> str:
     """
-    Function that takes two strings (str1 and str2) as arguments
-    and returns their concatenated result.
+    Function that takes two string arguments and returns their concatenated string.
     """
     return str1 + str2
